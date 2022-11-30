@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ead0ea8-7935-400a-bb8f-7c48cadcbefb" name="Changes" comment="new table" />
+    <list default="true" id="6ead0ea8-7935-400a-bb8f-7c48cadcbefb" name="Changes" comment="more adaptive style" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +46,7 @@
       <workItem from="1669180732506" duration="475000" />
       <workItem from="1669357275873" duration="267000" />
       <workItem from="1669367888091" duration="250000" />
+      <workItem from="1669648106155" duration="414000" />
     </task>
     <task id="LOCAL-00001" summary="colors">
       <created>1669179584722</created>
@@ -103,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669368050278</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="more adaptive style">
+      <created>1669648215100</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669648215100</updated>
+    </task>
+    <task id="LOCAL-00010" summary="more adaptive style">
+      <created>1669648236507</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669648236508</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +152,7 @@
     <MESSAGE value="naming" />
     <MESSAGE value="style new" />
     <MESSAGE value="new table" />
-    <option name="LAST_COMMIT_MESSAGE" value="new table" />
+    <MESSAGE value="more adaptive style" />
+    <option name="LAST_COMMIT_MESSAGE" value="more adaptive style" />
   </component>
 </project>
