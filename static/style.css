@@ -31,7 +31,7 @@ body {
 	width: auto;
 }
 #nav {
-	height: 200px;
+	height: 260px;
         min-width: 300px;
         display: flex;
        flex-flow: row wrap;
@@ -235,4 +235,9 @@ A {
     padding-right: 131px;
     padding-top: 110px;
     word-wrap: break-word;
+}
+
+.message {
+  border-top: 1px dotted #d23aaa;
+  padding-bottom: 20px;
 }

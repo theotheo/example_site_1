@@ -1,39 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Digital Humanities</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-<div id="header">
- <div id="logo">
-<a href="index.html">
-<img src="images/logos.png"></a>
- </div>
-<div id="name">
-<h2>Вокруг DH за 80 дней</h2> 
-</div>
+{% extends "base.html" %}
 
-<div id="nav">
-<ul>
-  <li><a href="index.html">О нас</a></li>
-  <li><a href="map.html">Мэппинг DH</a></li>
-  <li><a href="women.html">От институтки до проститутки</a></li>
-</ul>
-</div>
-</div>
+
+{% block content %}
+
 
 <div class="heading" id="about"> 
 <p>Мы — группа DH исследователей из Петербурга. Наша стратегическая задача — вклад в развитие цифровой гуманитаристики в России.Основа нашей деятельности — создание междисциплинарных исследовательских проектов. На сайте представлены проекты, которыми мы занимаемся сейчас, но наш спектр интересов ими не ограничивается. Что нас интересует?</p>
 <div id="main" class="photos">
 <div class="first">
-<img src="images/mary.jpeg">
+<img src="static/images/mary.jpeg">
 <p>Мария Кешишян</p>
 </div>
 <div class="second">
-<img src="images/lana.jpg">
+<img src="static/images/lana.jpg">
 <p>Илана Розман</p>
 </div>
 <div class="heading" id ="about"> 
@@ -49,22 +28,6 @@
 </div>
 
 
-
-<div id="footer">
-<p>Для сотрудничества: </p>
-<a href="https://t.me/liSP1912">
-<img src="images/tg.png"></a>
-<p> Здесь вас научат DH: </p>
-<a href="https://dh.itmo.ru">
-<img src="images/dh.png"></a>
-<p>От институтки до проститутки: </p>
-<a href="women.html">
-<img src="images/edulogo.png"></a>
-<p>Мэппинг DH: </p>
-<a href="map.html">
-<img src="images/map.png"></a>
-</div>
+{% endblock %}
 
 
-</body>
-</html>

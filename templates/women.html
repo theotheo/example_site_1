@@ -1,29 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title> DH </title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
-<div id="header">
- <div id="logo">
-<a href="index.html">
-<img src="images/logot.png"></a>
- </div>
-<div id="name">
-<h1>Вокруг DH за 80 дней</h1> 
-</div>
+{% extends "base.html" %}
 
-<div id="nav">
-<ul>
-  <li><a href="index.html">О нас</a></li>
-  <li><a href="map.html">Мэппинг DH</a></li>
-  <li><a href="women.html">От институтки до проститутки</a></li>
-</ul>
-</div>
-</div>
+{% block content %}
+
 <div class="body"> 
 <div class="heading" id="about"> 
 <p>Проект "Дамы в Петербурге" - это онлайн-сборник сюжетов из повседневной жизни женщин Петербурга XIX - XX веков. "Дамы в Петербурге" позволяют взглянуть на историю с нового ракурса: читая заметки о жизни обыкновенных модисток, институток и даже проституток, наши читатели смогут составить собственный портрет эпохи, отличный от того, который рисуют учебники истории.</p>
@@ -58,20 +36,4 @@
 <p>Например, здесь вы можете ознакомиться с визуализацией историко-статистического исследования проституции по ссылке.</p>
 
 
-<div id="footer">
-<p>Для сотрудничества: </p>
-<a href="https://t.me/liSP1912">
-<img src="images/tg.png"></a>
-<p> Здесь вас научат DH: </p>
-<a href="https://dh.itmo.ru">
-<img src="images/dh.png"></a>
-<p>От институтки до проститутки: </p>
-<a href="women.html">
-<img src="images/edulogo.png"></a>
-<p>Мэппинг DH: </p>
-<a href="map.html">
-<img src="images/map.png"></a>
-</div>
-
-</body>
-</html>
+{% endblock %}
